@@ -112,7 +112,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 Make sure you're in the project directory and the virtual environment is active:
 
 ```bash
-python your_script_name.py
+python text_extraction.py
 ```
 
 > 🔁 *Rename your script to `main.py` or `app.py` for better clarity.*
@@ -135,7 +135,7 @@ python your_script_name.py
 
 ```
 .
-├── main.py                # Main script (rename accordingly)
+├── text_extraction.py                # Main script (rename accordingly)
 ├── aadhaar_details.csv    # Output file (generated after run)
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
